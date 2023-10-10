@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47CEFF72AD04794001A0BE5 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CEFF62AD04794001A0BE5 /* Detail.swift */; };
+		B47CEFF92AD047CD001A0BE5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CEFF82AD047CD001A0BE5 /* ImageView.swift */; };
+		B47CEFFB2AD047FB001A0BE5 /* MAnchorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CEFFA2AD047FB001A0BE5 /* MAnchorKey.swift */; };
+		B47CEFFD2AD0480E001A0BE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CEFFC2AD0480E001A0BE5 /* Constants.swift */; };
+		B47CEFFF2AD0482A001A0BE5 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CEFFE2AD0482A001A0BE5 /* Dish.swift */; };
+		B47CF0022AD0485E001A0BE5 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CF0012AD0485E001A0BE5 /* View+Ext.swift */; };
+		B47CF0042AD04892001A0BE5 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CF0032AD04892001A0BE5 /* Color+Ext.swift */; };
+		B47CF0062AD048B0001A0BE5 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CF0052AD048B0001A0BE5 /* Image+Ext.swift */; };
+		B47CF0082AD2B833001A0BE5 /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CF0072AD2B833001A0BE5 /* Topping.swift */; };
+		B4B0CA782AD490A7004BCFD0 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B0CA772AD490A7004BCFD0 /* Checkout.swift */; };
+		B4BF923E2AD03E2200F31FDC /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF923D2AD03E2200F31FDC /* Overview.swift */; };
 		B4D811FA2ACDB8FC00578B48 /* Pizza_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D811F92ACDB8FC00578B48 /* Pizza_ShopApp.swift */; };
 		B4D811FC2ACDB8FC00578B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D811FB2ACDB8FC00578B48 /* ContentView.swift */; };
 		B4D811FE2ACDB8FD00578B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D811FD2ACDB8FD00578B48 /* Assets.xcassets */; };
@@ -14,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B47CEFF62AD04794001A0BE5 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		B47CEFF82AD047CD001A0BE5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B47CEFFA2AD047FB001A0BE5 /* MAnchorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAnchorKey.swift; sourceTree = "<group>"; };
+		B47CEFFC2AD0480E001A0BE5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B47CEFFE2AD0482A001A0BE5 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		B47CF0012AD0485E001A0BE5 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		B47CF0032AD04892001A0BE5 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		B47CF0052AD048B0001A0BE5 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
+		B47CF0072AD2B833001A0BE5 /* Topping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		B4B0CA772AD490A7004BCFD0 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		B4BF923D2AD03E2200F31FDC /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
 		B4D811F62ACDB8FC00578B48 /* Pizza Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D811F92ACDB8FC00578B48 /* Pizza_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_ShopApp.swift; sourceTree = "<group>"; };
 		B4D811FB2ACDB8FC00578B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +54,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B47CF0002AD04846001A0BE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B47CF0012AD0485E001A0BE5 /* View+Ext.swift */,
+				B47CF0032AD04892001A0BE5 /* Color+Ext.swift */,
+				B47CF0052AD048B0001A0BE5 /* Image+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4BF923A2AD03E0400F31FDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF923D2AD03E2200F31FDC /* Overview.swift */,
+				B47CEFF62AD04794001A0BE5 /* Detail.swift */,
+				B47CEFF82AD047CD001A0BE5 /* ImageView.swift */,
+				B4B0CA772AD490A7004BCFD0 /* Checkout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4BF923B2AD03E0900F31FDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B47CEFFE2AD0482A001A0BE5 /* Dish.swift */,
+				B47CF0072AD2B833001A0BE5 /* Topping.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4BF923C2AD03E0C00F31FDC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B47CEFFA2AD047FB001A0BE5 /* MAnchorKey.swift */,
+				B47CEFFC2AD0480E001A0BE5 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		B4D811ED2ACDB8FC00578B48 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +112,12 @@
 		B4D811F82ACDB8FC00578B48 /* Pizza Shop */ = {
 			isa = PBXGroup;
 			children = (
-				B4D811F92ACDB8FC00578B48 /* Pizza_ShopApp.swift */,
 				B4D811FB2ACDB8FC00578B48 /* ContentView.swift */,
+				B47CF0002AD04846001A0BE5 /* Extensions */,
+				B4BF923C2AD03E0C00F31FDC /* Helper */,
+				B4BF923B2AD03E0900F31FDC /* Model */,
+				B4BF923A2AD03E0400F31FDC /* View */,
+				B4D811F92ACDB8FC00578B48 /* Pizza_ShopApp.swift */,
 				B4D811FD2ACDB8FD00578B48 /* Assets.xcassets */,
 				B4D811FF2ACDB8FD00578B48 /* Preview Content */,
 			);
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47CEFF92AD047CD001A0BE5 /* ImageView.swift in Sources */,
+				B4BF923E2AD03E2200F31FDC /* Overview.swift in Sources */,
+				B47CF0022AD0485E001A0BE5 /* View+Ext.swift in Sources */,
+				B47CEFFB2AD047FB001A0BE5 /* MAnchorKey.swift in Sources */,
 				B4D811FC2ACDB8FC00578B48 /* ContentView.swift in Sources */,
+				B47CEFFD2AD0480E001A0BE5 /* Constants.swift in Sources */,
+				B4B0CA782AD490A7004BCFD0 /* Checkout.swift in Sources */,
+				B47CEFFF2AD0482A001A0BE5 /* Dish.swift in Sources */,
+				B47CEFF72AD04794001A0BE5 /* Detail.swift in Sources */,
 				B4D811FA2ACDB8FC00578B48 /* Pizza_ShopApp.swift in Sources */,
+				B47CF0082AD2B833001A0BE5 /* Topping.swift in Sources */,
+				B47CF0062AD048B0001A0BE5 /* Image+Ext.swift in Sources */,
+				B47CF0042AD04892001A0BE5 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pizza Shop/Preview Content\"";
-				DEVELOPMENT_TEAM = FJ872ZVMR4;
+				DEVELOPMENT_TEAM = U754X985LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -275,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pizza Shop/Preview Content\"";
-				DEVELOPMENT_TEAM = FJ872ZVMR4;
+				DEVELOPMENT_TEAM = U754X985LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

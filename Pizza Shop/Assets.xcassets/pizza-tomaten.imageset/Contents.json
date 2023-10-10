@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pizza-tomaten.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
