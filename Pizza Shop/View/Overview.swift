@@ -210,9 +210,6 @@ struct Overview: View {
                     }
                 }
             }
-            .fadeOutTop(fadeLength: 65.0)
-            .padding(.horizontal, 16.0)
-            .edgesIgnoringSafeArea(.bottom)
             .overlay(alignment: .bottom, content: {
                 // MARK: Basket
                 if !order.isEmpty {
@@ -266,6 +263,9 @@ struct Overview: View {
                     }
                 })
             })
+            .fadeOutTop(fadeLength: 65.0)
+            .padding(.horizontal, 16.0)
+            .edgesIgnoringSafeArea(.bottom)
         }
     }
 }
